@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/bedtime.png">
+
+</head>
+<body>
+
+    <header class="page-header">
+        <h1>Student Practice Webpage</h1>
+        <p>HTML + CSS Practice (Forms + Table Advanced)</p>
+    </header>
+
+    <div class="container">
+
+        <section class="card">
+            <h2>Image Section</h2>
+            <img src="image/rabbit.png" alt="Nature Image" class="section-image">
+        </section>
+
+        <section class="card">
+            <h2>Image Circle</h2>
+            <img src="image/rabbit.png" alt="Nature Image" class="circle-image">
+        </section>
+
+        <section class="card">
+            <h2>Image Oval</h2>
+            <img src="image/rabbit.png" alt="Nature Image" class="oval-image">
+        </section>
+
+        <section class="card">
+            <h2>Advanced Table</h2>
+            <table border="1" cellpadding="10" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th rowspan="2">Name</th>
+                        <th colspan="2">Scores</th>
+                        <th rowspan="2">Grade</th>
+                    </tr>
+                    <tr>
+                        <th>Math</th>
+                        <th>CS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alice</td>
+                        <td>90</td>
+                        <td>95</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>Bob</td>
+                        <td>80</td>
+                        <td>85</td>
+                        <td>B</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+        <section class="card form-container">
+            <div class="form-boss">
+                <h2>Form 1: Basic Info</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name" class="label-form">Name<span class="span-dot">*</span></label>
+                        <input class="input-tf" type="text" id="name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="label-form">Email<span class="span-dot">*</span></label>
+                        <input class="input-tf" type="email" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="label-form">Password<span class="span-dot">*</span></label>
+                        <input class="input-tf" type="password" id="password" name="password">
+                    </div>
+                    <div class="form-group">
+                        <label for="Uploadfile" class="label-form">Upload File</label>
+                        <input class="input-tf2" type="file" id="Uploadfile" name="Uploadfile">
+                    </div>
+                </form>
+
+                <div class="button-container">
+                    <button class="btn1">Submit</button>
+                    <button class="btn1">Reset</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="card form-container">
+            <div class="form-boss">
+                <h2>Form 2: Survey Form</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name" class="label-form">Choose course<span class="span-dot">*</span></label>
+                        <select class="input-tf" name="cars" id="cars">
+                            <option value="volvo">-Select-</option>
+                            <option value="volvo">UX/UI Desgin</option>
+                            <option value="saab">Web Development</option>
+                            <option value="mercedes">Backend Development</option>
+                            <option value="audi">Mobile Development</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="label-form">Gender</label>
+                        <div class="radio-con">
+                            <input class="rad" type="radio" id="male" name="gender" value="male">
+                            <label class="rad" for="male">Male</label><br>
+
+                            <input class="rad" type="radio" id="female" name="gender" value="female">
+                            <label class="rad" for="female">Female</label>
+                        </div>
+                        
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="label-form">Skill</span></label>
+                        <div>
+                            <input class="rad" type="checkbox" id="subscribe" name="subscribe" value="newsletter">
+                            <label class="rad" for="subscribe">HTML</label>
+                            <input class="rad" type="checkbox" id="subscribe" name="subscribe" value="newsletter">
+                            <label class="rad" for="subscribe">CSS</label>
+                            <input class="rad" type="checkbox" id="subscribe" name="subscribe" value="newsletter">
+                            <label class="rad" for="subscribe">JS</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="text" class="label-form">Phone<span class="span-dot">*</span></label>
+                        <input class="input-tf" type="text" id="text" name="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="label-form">Message</label>
+                        <input class="input-tf3" type="text" id="message" name="message">
+                    </div>
+                </form>
+
+                <div class="button-container">
+                    <button class="btn1">Send</button>
+                </div>
+            </div>
+            
+        </section>
+
+    </div>
+</body>
+</html>
