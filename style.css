@@ -131,7 +131,7 @@ table,th,td{
     padding-top: 10px;
 }
 
-.btn1{
+.btn{
     margin-right: 10px;
     padding-inline: 12px;
     padding-block: 7px;
@@ -141,11 +141,12 @@ table,th,td{
     color: white;
 }
 
-.radio-con{
+/* .radio-con{
     display: flex;
-}
+} */
 
 .rad{
-    padding-right: 10px;
+    display: flex;
+    padding-right: 15px;
     margin-right: 5px;
 }
